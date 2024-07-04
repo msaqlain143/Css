@@ -1,0 +1,94 @@
+/* CSS stands for Cascading Style Sheets */
+
+/* element selector */
+
+h2{
+    text-align: center;
+    color: #ff0000;
+    background-color:DodgerBlue;
+}
+/* id selector */
+#para{
+    color: rgb(241, 249, 243);
+    margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+/* class selector */
+.engr{
+    font-size: 20px;
+    border:2px solid rgb(223, 16, 16);
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px 10px 15px 20px;
+    outline-style: solid;
+    outline-color:yellow;
+    outline-width: thin;
+    text-transform: capitalize;
+}
+.hello{
+    text-decoration-line: overline underline;
+}
+/* unvisited link */
+a{
+    background-color: greenyellow;
+}
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  ul.fruit{
+    list-style-type: circle;
+  }
+  
+  ul.items{
+    list-style-type: square;
+  }
+  
+  ol.animals{
+    list-style-type: upper-roman;
+  }
+  
+  ol.birds {
+    list-style-type: lower-alpha;
+  }
+  /* Styling for the table */
+.education-table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are collapsed into a single border */
+    margin-top: 20px; /* Example margin for spacing */
+}
+
+/* Styling for table header cells */
+.education-table th {
+    background-color: #c5eb07; /* Light gray background */
+    border: 1px solid #dddddd; /* Gray border */
+    padding: 8px; /* Padding inside each cell */
+    text-align: left; /* Align text to the left */
+}
+
+/* Styling for table data cells */
+.education-table td {
+    border: 1px solid #dddddd; /* Gray border */
+    padding: 8px; /* Padding inside each cell */
+}
+
+/* Alternate row background color */
+.education-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light alternate background */
+}
